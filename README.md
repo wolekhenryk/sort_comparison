@@ -21,5 +21,5 @@ And also custom implementations:
 
 # Results
 
-![Image Alt Text](sort_comparison/charts/main_chart.png)
+![Image Alt Text](/charts/main_chart.png)
 
