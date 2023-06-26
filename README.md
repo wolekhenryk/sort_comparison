@@ -23,7 +23,7 @@ And also custom implementations:
 
 The provided data represents the execution times of various sorting algorithms on the task of sorting 1 million random integers from the interval <-1000000, 1000000>. The data includes multiple repetitions (1-10) for each algorithm, as well as additional metrics for analysis.
 
-| Algorithm                   | Worst   | Best  | % (Worst - Avg) / Avg | % (Best - Avg) / Avg |
+| Algorithm                   | Worst [ms]  | Best [ms]  | % (Worst - Avg) / Avg | % (Best - Avg) / Avg |
 |-----------------------------|---------|-------|----------------------|----------------------|
 | std::sort                   | 129     | 98    | 19.666               | 9.091                |
 | std::stable_sort            | 143     | 100   | 31.072               | 8.341                |
