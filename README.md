@@ -68,6 +68,8 @@ The provided data represents the execution times of various sorting algorithms o
 Based on this data, counting sort stands out as the most efficient algorithm for sorting the given dataset, providing the lowest average execution time. std::sort and std::stable_sort from the standard library also perform reasonably well, while heap sort, merge sort, and bucket sort exhibit higher execution times.
 
 
-Here's an interpretation of the data:
-![Image Alt Text](/charts/main_chart.png)
+Here are useful charts which help interpret the text:
+![Image Alt Text](/charts/avg_after_10.png)
+![Image Alt Text](/charts/worst_best_after_10.png)
+![Image Alt Text](/charts/worst_best_as_percent.png)
 
