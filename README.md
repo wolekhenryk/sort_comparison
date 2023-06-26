@@ -23,15 +23,16 @@ And also custom implementations:
 
 The provided data represents the execution times of various sorting algorithms on the task of sorting 1 million random integers from the interval <-1000000, 1000000>. The data includes multiple repetitions (1-10) for each algorithm, as well as additional metrics for analysis.
 
-| Algorithm                   | Worst [ms]  | Best [ms]  | % (Worst - Avg) / Avg | % (Best - Avg) / Avg |
-|-----------------------------|---------|-------|----------------------|----------------------|
-| std::sort                   | 129     | 98    | 19.666               | 9.091                |
-| std::stable_sort            | 143     | 100   | 31.072               | 8.341                |
-| heap sort                   | 403     | 281   | 19.798               | 16.468               |
-| quick sort (median of 3)    | 275     | 147   | 35.268               | 27.693               |
-| merge sort                  | 476     | 391   | 8.084                | 11.217               |
-| counting sort               | 44      | 21    | 54.386               | 26.316               |
-| bucket sort                 | 512     | 428   | 9.472                | 8.488                |
+| Algorithm                   | Alg / std::sort | Worst   | Best  | % (Worst - Avg) / Avg | % (Best - Avg) / Avg |
+|-----------------------------|-----------------|---------|-------|----------------------|----------------------|
+| std::sort                   | 1.000           | 129     | 98    | 19.666               | 9.091                |
+| std::stable_sort            | 1.012           | 143     | 100   | 31.072               | 8.341                |
+| heap sort                   | 3.121           | 403     | 281   | 19.798               | 16.468               |
+| quick sort (median of 3)    | 1.886           | 275     | 147   | 35.268               | 27.693               |
+| merge sort                  | 4.085           | 476     | 391   | 8.084                | 11.217               |
+| counting sort               | 0.264           | 44      | 21    | 54.386               | 26.316               |
+| bucket sort                 | 4.339           | 512     | 428   | 9.472                | 8.488                |
+
 
 **1.** ``std::sort``
 - Average Execution Time: 107.8 millisecond
