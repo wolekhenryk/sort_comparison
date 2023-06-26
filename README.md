@@ -19,3 +19,7 @@ And also custom implementations:
 
 **Compiler:** MSVC C++20, release config
 
+# Results
+
+![Image Alt Text](sort_comparison/charts/main_chart.png)
+
